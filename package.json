@@ -1,0 +1,17 @@
+{
+  "name": "reachai",
+  "version": "1.0.0",
+  "description": "ReachAI — AI-Powered Professional Outreach & Smart Referral System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "mammoth": "^1.12.0",
+    "multer": "^2.2.0",
+    "pdf-parse": "^2.4.5"
+  }
+}
